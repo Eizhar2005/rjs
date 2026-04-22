@@ -4,7 +4,7 @@ const Arrow = () => {
   return (
     <div>
             {/* Arrow */}
-    <div className="pt-5 mb-80">
+    <div className="pt-8 mb-80 px-3" >
         <span className="text-4xl">↗</span>
       </div>
 
