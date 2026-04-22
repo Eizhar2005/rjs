@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = (props) => {
   return (
-    console.log(props),
+
     
         <div className="card">
         <img
@@ -12,7 +12,7 @@ const Card = (props) => {
         <h1>{props.user}</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-          provident!
+          provident! {props.user}
         </p>
         <button>View Profile</button>
       </div>
