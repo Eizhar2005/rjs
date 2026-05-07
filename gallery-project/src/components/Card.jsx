@@ -3,10 +3,10 @@ import React from 'react'
 const Card = (props) => {
   return (
     <div>
-                <a href="{props.elem.url}" target="_blank">
+                <a href={props.elem.url} target="_blank">
             <div className="h-40 w-50  ">
               <img
-                src={props.elem.download_url} // used to display the image from the URL provided in the elem object.
+                src={props.elem.download_url} //
                 alt={props.elem.author}
                 style={{
                   width: "100%",
