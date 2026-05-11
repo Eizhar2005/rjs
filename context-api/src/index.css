@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar2 {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+
+.light {
+  background-color: lightblue;
+  color: black;
+}
+.dark {
+  background-color: darkcyan;
+  color: white;
+}
